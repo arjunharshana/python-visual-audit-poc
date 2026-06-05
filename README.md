@@ -75,7 +75,3 @@ When testing is complete, stop the Docker containers to free up system resources
 ```bash
 docker-compose down
 ```
-
----
-
-**Author:** Arjun Harshana
