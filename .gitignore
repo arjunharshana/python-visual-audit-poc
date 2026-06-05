@@ -1,0 +1,10 @@
+# Environments
+venv/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Project Specific
+test_runs/
