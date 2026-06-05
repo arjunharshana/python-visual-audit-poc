@@ -16,7 +16,7 @@ python-visual-audit-poc/
 └── tests/
     ├── __init__.py
     └── test_visual_login.py 
-
+```
 ## Prerequisites
 
 - Docker and Docker Compose
