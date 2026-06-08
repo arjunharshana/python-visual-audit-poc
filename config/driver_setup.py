@@ -3,7 +3,7 @@ from selenium.webdriver.firefox.options import Options
 
 def build_grid_driver():
     options = Options()
-    options.add_argument("-headless")
+    # options.add_argument("-headless")
     
     print("Connecting to Docker Grid at localhost:4444...")
  
