@@ -1,10 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
-def build_grid_driver():
+def build_grid_driver(session_name="Visual_Audit"):
     options = Options()
     # options.add_argument("-headless")
-    
+    options.set_capability("se:name", session_name)
+
     print("Connecting to Docker Grid at localhost:4444...")
  
     driver = webdriver.Remote(
