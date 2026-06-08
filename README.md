@@ -45,10 +45,14 @@ sudo chmod 777 videos
 
 ### 2. Start the Infrastructure
 
-Spin up the local Selenium Grid (Hub and Firefox Node with native video recording) using Docker Compose:
+Spin up the local Selenium Grid (Hub and Firefox Node with native video recording) using Docker Compose (you can scale to it multiple nodes as shown):
 
 ```bash
+# For single node
 docker-compose up -d
+
+# For multiple nodes
+docker-compose up -d --scale firefox-node=5
 ```
 
 Verify the grid is running by navigating to `http://localhost:4444` in your browser.
